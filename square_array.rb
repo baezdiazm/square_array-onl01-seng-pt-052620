@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  squared = []
+index = 0
+numbers.each do |number|
+  squared[index]= number*number
+  puts squared[index]
+  index += 1
+end
 end
