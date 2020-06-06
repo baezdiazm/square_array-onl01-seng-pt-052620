@@ -1,8 +1,9 @@
 def square_array(array)
   squared = []
+  new_squared = []
   index = 0
-  numbers.each do |number|
-    squared[index]= number*number
+  squared.each do |number|
+    new_squared[index]= squared[index]*squared[index]
     puts squared[index]
     index += 1
   end
